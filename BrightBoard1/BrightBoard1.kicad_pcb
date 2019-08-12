@@ -5029,7 +5029,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D543737)
-    (at 496.157001 252.822001)
+    (at 258.445 221.615)
     (descr "Mounting Hole 4.3mm, M4, ISO14580")
     (tags "mounting hole 4.3mm m4 iso14580")
     (path /5D54E143/5D623E60)
@@ -5050,7 +5050,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D54373F)
-    (at 496.157001 261.372001)
+    (at 258.445 297.815)
     (descr "Mounting Hole 4.3mm, M4, ISO14580")
     (tags "mounting hole 4.3mm m4 iso14580")
     (path /5D54E143/5D623EEB)
@@ -5071,7 +5071,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D543747)
-    (at 504.707001 252.822001)
+    (at 338.455 221.615)
     (descr "Mounting Hole 4.3mm, M4, ISO14580")
     (tags "mounting hole 4.3mm m4 iso14580")
     (path /5D54E143/5D625BB8)
@@ -5092,7 +5092,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_ISO14580_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D54374F)
-    (at 504.707001 261.372001)
+    (at 338.455 297.815)
     (descr "Mounting Hole 4.3mm, M4, ISO14580")
     (tags "mounting hole 4.3mm m4 iso14580")
     (path /5D54E143/5D625BC4)
