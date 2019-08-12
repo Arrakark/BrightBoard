@@ -1,0 +1,21 @@
+8.25 x 11.5
+JE2835AWT-00-0000-000A0HG950E
+JE2835AWT-00-0000-000A0UF945E
+
+@ 150-193mA (1500 lum/$ to 2000lum/$)
+VF = 3 - 3.1V
+W = 0.45 - 0.6W
+Lumens = 75 - 100
+167- 142 lumens/watt
+
+100 - 120 LEDs
+
+strings of 8 LEDs
+11 parallel = 88
+12 parallel = 96
+13 parallel = 104
+14 parallel = 112
+
+8x11 inch PCB
+
+6.9*10.15 inch array

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BrightBoard1-rescue)(type Legacy)(uri ${KIPRJMOD}/BrightBoard1-rescue.lib)(options "")(descr ""))
+)
