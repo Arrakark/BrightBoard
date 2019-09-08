@@ -183,15 +183,15 @@ Wire Notes Line
 Text Notes 6050 2750 0    50   ~ 0
 LEDs and Control
 Wire Notes Line
-	11050 650  9150 650 
+	11050 650  9200 650 
 Wire Notes Line
-	9150 950  11050 950 
-Text Notes 9250 850  0    50   ~ 0
+	9200 950  11050 950 
+Text Notes 9300 850  0    50   ~ 0
 3.3V Regulator
 Wire Notes Line
-	9150 650  9150 2450
+	9200 650  9200 2450
 Wire Notes Line
-	9150 2450 11050 2450
+	9200 2450 11050 2450
 Wire Notes Line
 	11050 2450 11050 650 
 Wire Notes Line
@@ -199,10 +199,11 @@ Wire Notes Line
 Wire Notes Line
 	5950 2550 5950 6450
 $Sheet
-S 9700 1250 800  900 
+S 10000 1250 800  900 
 U 5D54E143
 F0 "Power" 50
 F1 "PowerSupply.sch" 50
+F2 "VCC_AI" O L 10000 1700 50 
 $EndSheet
 Wire Notes Line
 	650  7600 5750 7600
@@ -740,63 +741,12 @@ Wire Wire Line
 Connection ~ 9200 5500
 Wire Wire Line
 	9200 6100 9200 5950
-$Comp
-L Device:R R11
-U 1 1 5D51222C
-P 5000 4600
-F 0 "R11" H 5070 4646 50  0000 L CNN
-F 1 "10K0" H 5070 4555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 4600 50  0001 C CNN
-F 3 "~" H 5000 4600 50  0001 C CNN
-	1    5000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5D512F49
-P 5000 4000
-F 0 "R10" H 5070 4046 50  0000 L CNN
-F 1 "100K" H 5070 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 4000 50  0001 C CNN
-F 3 "~" H 5000 4000 50  0001 C CNN
-	1    5000 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5D5132C8
-P 5000 4900
-F 0 "#PWR0102" H 5000 4650 50  0001 C CNN
-F 1 "GND" H 5005 4727 50  0000 C CNN
-F 2 "" H 5000 4900 50  0001 C CNN
-F 3 "" H 5000 4900 50  0001 C CNN
-	1    5000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 5D515F34
-P 5000 3750
-AR Path="/5D54E143/5D515F34" Ref="#PWR?"  Part="1" 
-AR Path="/5D515F34" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 5000 3600 50  0001 C CNN
-F 1 "VCC" H 5017 3923 50  0000 C CNN
-F 2 "" H 5000 3750 50  0001 C CNN
-F 3 "" H 5000 3750 50  0001 C CNN
-	1    5000 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5000 4450 5000 4300
-Wire Wire Line
-	5000 4900 5000 4750
-Wire Wire Line
-	5000 3850 5000 3750
 Text Label 4450 4300 2    50   ~ 0
 VCC_AI
 Wire Wire Line
-	3850 4300 5000 4300
-Connection ~ 5000 4300
+	10000 1700 9400 1700
+Text Label 9400 1700 0    50   ~ 0
+VCC_AI
 Wire Wire Line
-	5000 4300 5000 4150
+	3850 4300 4450 4300
 $EndSCHEMATC
